@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1BE2317B1B7E5696003BA163 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE2317A1B7E5696003BA163 /* HomeViewController.m */; };
+		EF318F8C1B6001B100202348 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318F8B1B6001B100202348 /* main.m */; };
+		EF318F8F1B6001B100202348 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318F8E1B6001B100202348 /* AppDelegate.m */; };
+		EF318F921B6001B100202348 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318F911B6001B100202348 /* MainViewController.m */; };
+		EF318F951B6001B100202348 /* GroupRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318F941B6001B100202348 /* GroupRunViewController.m */; };
+		EF318F981B6001B100202348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF318F961B6001B100202348 /* Main.storyboard */; };
+		EF318F9A1B6001B100202348 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF318F991B6001B100202348 /* Images.xcassets */; };
+		EF318F9D1B6001B100202348 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EF318F9B1B6001B100202348 /* LaunchScreen.xib */; };
+		EF318FA91B6001B200202348 /* DreamMilesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FA81B6001B200202348 /* DreamMilesTests.m */; };
+		EF318FB41B629D0600202348 /* CharitiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FB31B629D0600202348 /* CharitiesViewController.m */; };
+		EF318FB71B629D2800202348 /* AccountViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FB61B629D2800202348 /* AccountViewController.m */; };
+		EF318FBA1B629D4900202348 /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FB91B629D4900202348 /* HistoryViewController.m */; };
+		EF318FBD1B629E0200202348 /* ActiveRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FBC1B629E0200202348 /* ActiveRunViewController.m */; };
+		EF318FC01B629EDB00202348 /* PauseRunViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FBF1B629EDB00202348 /* PauseRunViewController.m */; };
+		EF318FC31B629F1700202348 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FC21B629F1700202348 /* LoginViewController.m */; };
+		EF318FC61B62A00000202348 /* NavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FC51B62A00000202348 /* NavigationController.m */; };
+		EF318FCC1B62C51700202348 /* UITabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FCB1B62C51700202348 /* UITabBarViewController.m */; };
+		EF318FCF1B71619A00202348 /* UserProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = EF318FCE1B71619A00202348 /* UserProfile.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EF318FA31B6001B200202348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EF318F7E1B6001B100202348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EF318F851B6001B100202348;
+			remoteInfo = DreamMiles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1BE231791B7E5696003BA163 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		1BE2317A1B7E5696003BA163 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		EF318F861B6001B100202348 /* DreamMiles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamMiles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF318F8A1B6001B100202348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF318F8B1B6001B100202348 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EF318F8D1B6001B100202348 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EF318F8E1B6001B100202348 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EF318F901B6001B100202348 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		EF318F911B6001B100202348 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		EF318F931B6001B100202348 /* GroupRunViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GroupRunViewController.h; sourceTree = "<group>"; };
+		EF318F941B6001B100202348 /* GroupRunViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GroupRunViewController.m; sourceTree = "<group>"; };
+		EF318F971B6001B100202348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EF318F991B6001B100202348 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		EF318F9C1B6001B100202348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		EF318FA21B6001B200202348 /* DreamMilesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DreamMilesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF318FA71B6001B200202348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF318FA81B6001B200202348 /* DreamMilesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DreamMilesTests.m; sourceTree = "<group>"; };
+		EF318FB21B629D0600202348 /* CharitiesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CharitiesViewController.h; sourceTree = "<group>"; };
+		EF318FB31B629D0600202348 /* CharitiesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CharitiesViewController.m; sourceTree = "<group>"; };
+		EF318FB51B629D2800202348 /* AccountViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountViewController.h; sourceTree = "<group>"; };
+		EF318FB61B629D2800202348 /* AccountViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountViewController.m; sourceTree = "<group>"; };
+		EF318FB81B629D4900202348 /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
+		EF318FB91B629D4900202348 /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		EF318FBB1B629E0200202348 /* ActiveRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActiveRunViewController.h; sourceTree = "<group>"; };
+		EF318FBC1B629E0200202348 /* ActiveRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActiveRunViewController.m; sourceTree = "<group>"; };
+		EF318FBE1B629EDB00202348 /* PauseRunViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PauseRunViewController.h; sourceTree = "<group>"; };
+		EF318FBF1B629EDB00202348 /* PauseRunViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PauseRunViewController.m; sourceTree = "<group>"; };
+		EF318FC11B629F1700202348 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		EF318FC21B629F1700202348 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		EF318FC41B62A00000202348 /* NavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationController.h; sourceTree = "<group>"; };
+		EF318FC51B62A00000202348 /* NavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationController.m; sourceTree = "<group>"; };
+		EF318FCA1B62C51700202348 /* UITabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UITabBarViewController.h; path = DreamMiles.xcodeproj/../UITabBarViewController.h; sourceTree = SOURCE_ROOT; };
+		EF318FCB1B62C51700202348 /* UITabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UITabBarViewController.m; path = DreamMiles.xcodeproj/../UITabBarViewController.m; sourceTree = SOURCE_ROOT; };
+		EF318FCD1B71619A00202348 /* UserProfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfile.h; sourceTree = "<group>"; };
+		EF318FCE1B71619A00202348 /* UserProfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfile.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EF318F831B6001B100202348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF318F9F1B6001B200202348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EF318F7D1B6001B100202348 = {
+			isa = PBXGroup;
+			children = (
+				EF318F881B6001B100202348 /* DreamMiles */,
+				EF318FA51B6001B200202348 /* DreamMilesTests */,
+				EF318F871B6001B100202348 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EF318F871B6001B100202348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EF318F861B6001B100202348 /* DreamMiles.app */,
+				EF318FA21B6001B200202348 /* DreamMilesTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EF318F881B6001B100202348 /* DreamMiles */ = {
+			isa = PBXGroup;
+			children = (
+				EF318FB51B629D2800202348 /* AccountViewController.h */,
+				EF318FB61B629D2800202348 /* AccountViewController.m */,
+				EF318FBB1B629E0200202348 /* ActiveRunViewController.h */,
+				EF318FBC1B629E0200202348 /* ActiveRunViewController.m */,
+				EF318F8D1B6001B100202348 /* AppDelegate.h */,
+				EF318F8E1B6001B100202348 /* AppDelegate.m */,
+				EF318FB21B629D0600202348 /* CharitiesViewController.h */,
+				EF318FB31B629D0600202348 /* CharitiesViewController.m */,
+				EF318F931B6001B100202348 /* GroupRunViewController.h */,
+				EF318F941B6001B100202348 /* GroupRunViewController.m */,
+				EF318FB81B629D4900202348 /* HistoryViewController.h */,
+				EF318FB91B629D4900202348 /* HistoryViewController.m */,
+				EF318FC11B629F1700202348 /* LoginViewController.h */,
+				EF318FC21B629F1700202348 /* LoginViewController.m */,
+				EF318FCD1B71619A00202348 /* UserProfile.h */,
+				EF318FCE1B71619A00202348 /* UserProfile.m */,
+				EF318F901B6001B100202348 /* MainViewController.h */,
+				EF318F911B6001B100202348 /* MainViewController.m */,
+				EF318F961B6001B100202348 /* Main.storyboard */,
+				1BE231791B7E5696003BA163 /* HomeViewController.h */,
+				1BE2317A1B7E5696003BA163 /* HomeViewController.m */,
+				EF318FC41B62A00000202348 /* NavigationController.h */,
+				EF318FC51B62A00000202348 /* NavigationController.m */,
+				EF318FBE1B629EDB00202348 /* PauseRunViewController.h */,
+				EF318FBF1B629EDB00202348 /* PauseRunViewController.m */,
+				EF318FCA1B62C51700202348 /* UITabBarViewController.h */,
+				EF318FCB1B62C51700202348 /* UITabBarViewController.m */,
+				EF318F991B6001B100202348 /* Images.xcassets */,
+				EF318F9B1B6001B100202348 /* LaunchScreen.xib */,
+				EF318F891B6001B100202348 /* Supporting Files */,
+			);
+			path = DreamMiles;
+			sourceTree = "<group>";
+		};
+		EF318F891B6001B100202348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF318F8A1B6001B100202348 /* Info.plist */,
+				EF318F8B1B6001B100202348 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EF318FA51B6001B200202348 /* DreamMilesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EF318FA81B6001B200202348 /* DreamMilesTests.m */,
+				EF318FA61B6001B200202348 /* Supporting Files */,
+			);
+			path = DreamMilesTests;
+			sourceTree = "<group>";
+		};
+		EF318FA61B6001B200202348 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EF318FA71B6001B200202348 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EF318F851B6001B100202348 /* DreamMiles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF318FAC1B6001B200202348 /* Build configuration list for PBXNativeTarget "DreamMiles" */;
+			buildPhases = (
+				EF318F821B6001B100202348 /* Sources */,
+				EF318F831B6001B100202348 /* Frameworks */,
+				EF318F841B6001B100202348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DreamMiles;
+			productName = DreamMiles;
+			productReference = EF318F861B6001B100202348 /* DreamMiles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EF318FA11B6001B200202348 /* DreamMilesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EF318FAF1B6001B200202348 /* Build configuration list for PBXNativeTarget "DreamMilesTests" */;
+			buildPhases = (
+				EF318F9E1B6001B200202348 /* Sources */,
+				EF318F9F1B6001B200202348 /* Frameworks */,
+				EF318FA01B6001B200202348 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EF318FA41B6001B200202348 /* PBXTargetDependency */,
+			);
+			name = DreamMilesTests;
+			productName = DreamMilesTests;
+			productReference = EF318FA21B6001B200202348 /* DreamMilesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EF318F7E1B6001B100202348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Charles Dorward";
+				TargetAttributes = {
+					EF318F851B6001B100202348 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					EF318FA11B6001B200202348 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = EF318F851B6001B100202348;
+					};
+				};
+			};
+			buildConfigurationList = EF318F811B6001B100202348 /* Build configuration list for PBXProject "DreamMiles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EF318F7D1B6001B100202348;
+			productRefGroup = EF318F871B6001B100202348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EF318F851B6001B100202348 /* DreamMiles */,
+				EF318FA11B6001B200202348 /* DreamMilesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EF318F841B6001B100202348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF318F981B6001B100202348 /* Main.storyboard in Resources */,
+				EF318F9D1B6001B100202348 /* LaunchScreen.xib in Resources */,
+				EF318F9A1B6001B100202348 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF318FA01B6001B200202348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EF318F821B6001B100202348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF318FCC1B62C51700202348 /* UITabBarViewController.m in Sources */,
+				EF318FC01B629EDB00202348 /* PauseRunViewController.m in Sources */,
+				EF318F951B6001B100202348 /* GroupRunViewController.m in Sources */,
+				EF318FB41B629D0600202348 /* CharitiesViewController.m in Sources */,
+				EF318F8F1B6001B100202348 /* AppDelegate.m in Sources */,
+				1BE2317B1B7E5696003BA163 /* HomeViewController.m in Sources */,
+				EF318FC31B629F1700202348 /* LoginViewController.m in Sources */,
+				EF318F921B6001B100202348 /* MainViewController.m in Sources */,
+				EF318FBD1B629E0200202348 /* ActiveRunViewController.m in Sources */,
+				EF318FCF1B71619A00202348 /* UserProfile.m in Sources */,
+				EF318FB71B629D2800202348 /* AccountViewController.m in Sources */,
+				EF318FC61B62A00000202348 /* NavigationController.m in Sources */,
+				EF318FBA1B629D4900202348 /* HistoryViewController.m in Sources */,
+				EF318F8C1B6001B100202348 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EF318F9E1B6001B200202348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF318FA91B6001B200202348 /* DreamMilesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EF318FA41B6001B200202348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EF318F851B6001B100202348 /* DreamMiles */;
+			targetProxy = EF318FA31B6001B200202348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EF318F961B6001B100202348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF318F971B6001B100202348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EF318F9B1B6001B100202348 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EF318F9C1B6001B100202348 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EF318FAA1B6001B200202348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EF318FAB1B6001B200202348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EF318FAD1B6001B200202348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamMiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EF318FAE1B6001B200202348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = DreamMiles/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EF318FB01B6001B200202348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamMilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamMiles.app/DreamMiles";
+			};
+			name = Debug;
+		};
+		EF318FB11B6001B200202348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = DreamMilesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DreamMiles.app/DreamMiles";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EF318F811B6001B100202348 /* Build configuration list for PBXProject "DreamMiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF318FAA1B6001B200202348 /* Debug */,
+				EF318FAB1B6001B200202348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF318FAC1B6001B200202348 /* Build configuration list for PBXNativeTarget "DreamMiles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF318FAD1B6001B200202348 /* Debug */,
+				EF318FAE1B6001B200202348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EF318FAF1B6001B200202348 /* Build configuration list for PBXNativeTarget "DreamMilesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EF318FB01B6001B200202348 /* Debug */,
+				EF318FB11B6001B200202348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EF318F7E1B6001B100202348 /* Project object */;
+}
